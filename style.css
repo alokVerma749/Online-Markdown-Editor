@@ -37,7 +37,6 @@ textarea {
   color: inherit;
 }
 
-
 section {
   width: 100%;
 }
@@ -87,4 +86,14 @@ a {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+/* dark/light mode */
+.dark {
+  background: #22272e;
+  color: #eee;
+}
+body {
+  /*below all existing css */
+  transition: all 500ms ease;
 }
